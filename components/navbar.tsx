@@ -31,9 +31,9 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" p-4 bg-slate-200 text-foreground">
+    <nav className=" p-4 bg-blue-500 text-foreground">
       <div className="container mx-auto flex justify-between items-center px-20">
-        <h1 className="text-xl font-bold">Todo App</h1>
+        <h1 className="text-2xl font-bold text-white">Todo App</h1>
         <div>
           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
             <DialogTrigger asChild>
