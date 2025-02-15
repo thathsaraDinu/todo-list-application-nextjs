@@ -12,11 +12,6 @@
       "dest": "/$1"
     }
   ],
-  "env": {
-    "NEXTAUTH_URL": "https://todo-list-application-nextjs.vercel.app",
-    "DATABASE_URL": "mongodb+srv://thathsaradinuwan:Dinuwan@cluster0.67pv9xt.mongodb.net/todolist?retryWrites=true&w=majority",
-    "NEXTAUTH_SECRET":"cb861c4d8bb66f3380fed93797a0a478d7b105b2ee075a942b1b1e7d8fe46493"
-  },
   "functions": {
     "api/**/*.ts": {
       "memory": 1024,
