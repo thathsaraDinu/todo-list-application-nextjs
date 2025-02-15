@@ -41,7 +41,7 @@ export default function Navbar() {
             </DialogTrigger>
             <DialogContent>
               <DialogHeader>
-                <DialogTitle>Sign Out </DialogTitle>
+                <DialogTitle>Sign Out</DialogTitle>
               </DialogHeader>
               <DialogDescription>
                 Are you sure you want to sign out?
